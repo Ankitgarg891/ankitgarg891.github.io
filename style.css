@@ -457,14 +457,14 @@ ul {
     .classy-nav-container {
       padding: 0 15px; } }
   .classy-nav-container .classy-navbar {
-    height: 100px;
+    height: 60px;
     padding: 0 3%; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .classy-nav-container .classy-navbar {
         height: 70px; } }
     @media only screen and (max-width: 767px) {
       .classy-nav-container .classy-navbar {
-        height: 70px; } }
+        height: 50px; } }
     .classy-nav-container .classy-navbar .bg-curve {
       position: absolute;
       width: 60%;
