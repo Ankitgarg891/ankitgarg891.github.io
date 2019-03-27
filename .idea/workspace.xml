@@ -2,20 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="576cf8e9-6f7f-4631-b7c5-964d210b42e9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/clients/customer1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/clients/customer1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/clients/customer2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/clients/customer2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/clients/customer3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/clients/customer3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/clients/customer4.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/clients/customer4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/clients/customer5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tne/t1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/tne/t1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tne/t2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/tne/t2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tne/t3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/tne/t3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tne/t5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/tne/t5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tne/t6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/tne/t6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tne/t7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/tne/t7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tne/t8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/tne/t8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tne/t9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/tne/t9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -32,7 +18,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../genesis/assets/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19329">
+            <state relative-caret-position="-8596">
               <caret line="1137" column="13" selection-start-line="1137" selection-start-column="13" selection-end-line="1137" selection-end-column="13" />
             </state>
           </provider>
@@ -41,7 +27,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../mona/mona/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="394">
               <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -53,18 +39,33 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="312" lean-forward="true" selection-start-line="312" selection-end-line="312" />
+            <state relative-caret-position="391">
+              <caret line="517" column="2" selection-start-line="517" selection-start-column="2" selection-end-line="517" selection-end-column="2" />
               <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" />
+                <element signature="n#script#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#nav#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#nav#0;n#div#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#1;n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#h3#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#section#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#2;n#div#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#section#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#div#0;n#section#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#section#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#section#3;n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#4;n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#section#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#section#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#script#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -110,10 +111,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="837" />
-    <option name="y" value="75" />
-    <option name="width" value="1364" />
-    <option name="height" value="736" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -188,17 +189,18 @@
       <workItem from="1553103157432" duration="4675000" />
       <workItem from="1553612668082" duration="2267000" />
       <workItem from="1553678659391" duration="13615000" />
+      <workItem from="1553699651488" duration="5581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94343000" />
+    <option name="totallyTimeSpent" value="99924000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1040" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10778443" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08035714" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -213,7 +215,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.17815126" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.17815126" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -272,14 +274,14 @@
     <entry file="file://$PROJECT_DIR$/css/style.css" />
     <entry file="file://$PROJECT_DIR$/../../genesis/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19329">
+        <state relative-caret-position="-8596">
           <caret line="1137" column="13" selection-start-line="1137" selection-start-column="13" selection-end-line="1137" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../mona/mona/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
+        <state relative-caret-position="394">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -289,18 +291,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="312" lean-forward="true" selection-start-line="312" selection-end-line="312" />
+        <state relative-caret-position="391">
+          <caret line="517" column="2" selection-start-line="517" selection-start-column="2" selection-end-line="517" selection-end-column="2" />
           <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#script#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#nav#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#nav#0;n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#1;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#h3#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#section#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#0;n#section#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#section#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#3;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#4;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#section#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
