@@ -3,6 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="creative.css" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+
     <style>
 
 
@@ -59,7 +75,7 @@
             width: 100%;
             height: 100vh;
             left: 1%;
-            top: 1%;
+            top: 10%;
         }
 
         .secondplan {
@@ -70,7 +86,7 @@
             width: 100%;
             height: 100vh;
             left: -1%;
-            top: 1%;
+            top: 10%;
         }
 
         .firstplan {
@@ -97,24 +113,11 @@
 
     </style>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="creative.css" rel="stylesheet">
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
-
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <style>
         section{
             margin-top: 2%;
         }
     </style>
-
     <style>
         .open-button {
             background-color: #555;
@@ -185,8 +188,24 @@
     </style>
 
 
+    <style>
+        @media screen and (max-width: 990px) {
+
+            .secondplan{
+                display:none;
+            }
+            .thirdplan{
+                background-position : center center;
+            }
+
+        }
+    </style>
+
+
+
 </head>
 <body id="page-top">
+
 
 
 
@@ -213,10 +232,6 @@
      attribution=setup_tool
      page_id="2228777987410168">
 </div>
-
-
-
-
 
 <!--integration ends-->
 
@@ -452,6 +467,8 @@
 </section>
 
 
+
+<!--bulk enquiry form-->
 <button class="open-button" align=left onclick="openForm()">Bulk Enquiry</button>
 <div class="form-popup" id="myForm">
 <form action="/action_page.php" class="form-container">
@@ -466,7 +483,7 @@
 <label for="Enquiry"><b>Enquiry</b></label>
 <textarea id="enquiry" name="enquiry" placeholder="Your Enquiry" style="height:30%"></textarea>
 
-<button type="submit" class="btn">Close</button>
+<button type="submit" class="btn">Submit Enquiry</button>
 <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
 </form>
 </div>
@@ -1017,6 +1034,7 @@
         document.getElementById("myForm").style.display = "none";
     }
 </script>
+
 <script src="creative.js"></script>
 
 </body>
