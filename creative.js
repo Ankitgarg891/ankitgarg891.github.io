@@ -6,11 +6,12 @@
     console.log("js-scroll-triggered");
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
+       headerHeight = $(".primary-header").height() + 5; // Get fixed header height
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
       if (target.length) {
         $('html, body').animate({
-          scrollTop: (target.offset().top - 72)
-        }, 1000, "easeInOutExpo");
+          scrollTop: (target.offset().top - headerHeight-100)
+        }, 500, "easeInOutExpo");
         return false;
       }
     }

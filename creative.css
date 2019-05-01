@@ -47,6 +47,68 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
+
+/*keyframe animations*/
+.first {
+ -webkit-animation: bannermove 1s linear infinite;
+    -moz-animation: bannermove 3s linear infinite;
+     -ms-animation: bannermove 3s linear infinite;
+      -o-animation: bannermove 3s linear infinite;
+         animation: bannermove 3s linear infinite;
+}
+ 
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: 0px;
+ }
+ 
+}
+ 
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+
+/*end   */
+
 body {
   margin: 0;
   font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -4316,6 +4378,7 @@ input[type="button"].btn-block {
 
 .nav-link {
   display: block;
+
   padding: 0.5rem 1rem;
 }
 
@@ -10634,19 +10697,19 @@ hr.light {
   #mainNav.navbar-scrolled {
     -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    background-color: #fff;
+    background-color: #000; /*#F5F5F5 white smoke  navbar background*/
   }
   #mainNav.navbar-scrolled .navbar-brand {
-    color: #212529;
+    color: #fff;  /* 212529 slight insane  color*/
   }
   #mainNav.navbar-scrolled .navbar-brand:hover {
-    color: #1E61CC;
+    color: #1E61CC;  /*slight insane hover color*/
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
-    color: #212529;
+ /*   color: #212529;*/color:#fff;  /* about,customer  color */
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-    color: #1E61CC;
+    color: #1E61CC;  /*1E61CC*/
   }
 }
 

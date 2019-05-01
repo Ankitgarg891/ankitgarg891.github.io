@@ -43,6 +43,24 @@
 
 
     <style>
+    .photobanner {
+ height: 233px;
+ width: 3550px;
+ margin-bottom: 80px;
+}
+
+
+
+
+
+    .newfont{
+        font-family: Montserrat;
+        font-size: 1.2rem;
+        line-height: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
 
     .subhead {
     width: 100%;
@@ -137,46 +155,50 @@
         }
 
         .thirdplan {
-            background: url("tshirt_1.png") no-repeat 50% 100%;
+           /* background: url("tshirt_1.png") no-repeat 50% 100%;*/
             background-position: left center;
             background-size: contain;
             position: absolute;
             width: 100%;
-            height: 100vh;
+            height: 75vh;
             left: 1%;
             top: 10%;
         }
 
         .secondplan {
-            background: url("hoodie.png.png") no-repeat 50% 100%;
+            /*background: url("hoodie.png.png") no-repeat 50% 100%;*/
             background-position: right center;
             background-size: contain;
             position: absolute;
             width: 100%;
-            height: 100vh;
+            height: 75vh;
             left: -1%;
             top: 10%;
         }
 
         .firstplan {
-            background: url("logo.png") no-repeat 50% 100%;
+           /* background: url("logo.png") no-repeat 50% 100%;*/
             background-position: center center;
             background-size: contain;
             position: absolute;
-            width: 50%;
+            width: 40%;
             height: 100vh;
-            left: 25%;
+            left: 30%;
             top: 10%;
         }
 
         .customtext {
-            background: url("ss1.png") no-repeat 100% 100%;
-            background-position: center center;
+            /*background: url("ss1.png") no-repeat 100% 100%;*/
+
+            background-position: bottom center;
             background-size: contain;
             position: absolute;
-            width: 80%;
+            width: 60%;
+            left: 19%;
             height: 100vh;
-            left: 10%;
+          
+          /*  box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);*/
+           
             top: -10%;
         }
 
@@ -337,10 +359,11 @@
 
 
 <!--navbar-->
-<nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top py-6" id="mainNav">
     <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
-            <img src="logo.png" height="52" width="220">
+            <h1 style="font-family:Montserrat; font-size:2rem">Slight Insane</h1>
+            <!-- <img src="logo.png" height="50" width="220"> -->   <!-- /*icon_main*/ -->
         </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -348,16 +371,16 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto my-2 my-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger " href="#about">About</a>
+                    <a class="nav-link js-scroll-trigger " href="#about" style="font-family:Montserrat; font-size:1rem font-c" >About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#Customers">Customers</a>
+                    <a class="nav-link js-scroll-trigger " href="#customers" style="font-family:Montserrat ;font-size:1rem">Customers</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+                    <a class="nav-link js-scroll-trigger " href="#services" style="font-family:Montserrat ;font-size:1rem">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                    <a class="nav-link js-scroll-trigger " href="#contact" style="font-family:Montserrat ;font-size:1rem">Contact</a>
                 </li>
             </ul>
         </div>
@@ -367,39 +390,84 @@
 
 
 <!--parellex screen-->
-<header class="" style="min-width: 100%;min-height:100%">
-    <div id="container" class="container1" >
-    <ul id="scene" class="scene" style="background-color: transparent">
-        <li class="layer" data-depth="0.00"><div class="fourthplan" /></li>
+<!-- 
+<section id="contact"   style="background: url(background.jpeg);
+                    background-attachment: fixed ;background-size: cover;padding: 1%">
+sss
+ --><!-- 
+//old header -->
+<!-- <header class="" style="min-width: 100%;min-height:100%">
+    <div id="container" class="container1"  >
+    <ul id="scene" class="scene" style="background: url(background.jpeg);
+                    background-attachment: fixed ;background-size: cover;padding: 1%">
+        <li class="layer" data-depth="0.10"><div class="fourthplan" /></li>
         <li class="layer" data-depth="0.35"><div class="thirdplan" /></li>
         <li class="layer" data-depth="0.60"><div class="secondplan" /></li>
-        <li class="layer" data-depth="0.80"><div class="customtext" /></li>
+        
         <li class="layer" data-depth="1.00"><div class="firstplan" /></li>
+        <li class="layer" data-depth="0.80"><div class="customtext" /></li>
     </ul>
 </div>
 </header>
 
+ -->
 
+
+<!--new header-->
+<header class="" style="min-height: 100%; min-height: 100% ;background-color:black">
+
+    <h3 class="" style="font-size:4.2rem; color:white; font-family:Montserrat; text-align: left center; padding-top:20%;padding-left: 10%;padding-right: 10% ">
+    Introducing a bold new clothing brand to the world.</h3>
+
+
+
+    
+
+</header>
 
 <!--about section-->
-<section class="bg-primary" id="about">
-    <div class="container" style="padding: 3%;">
+<section  id="about">
+    <div class="container" style="padding: 0%;">
         <div class="row"style="margin:0px" >
-            <div class="col-lg-14 mx-auto text-center" style="margin:0px">
-                <h2 class="ah2 " style="color:white ">Welcome to Slight Insane</h2>
-                <hr class=" my-4 line" style="width:200px">
-                <p class="para" style="color:white">
-                    <strong>Slight Insane</strong> fulfills all your Customized t shirt printing needs. So whether you’re looking for custom t shirts or custom hoodies, we can print them for you. We specialize in  Customising  T-shirts, Polo T-shirts, Hoodies, Zippers and Sweatshirts.
+            <div class="col-lg-20 mx-auto text-center" style="margin:0px">
+                <h2 class="ah2 " >Welcome to Slight Insane</h2>
+                <hr class=" my-4 line" style="width:200px; border-color: black">
+                <p class="para" style="color:black ; padding-left: 1%; padding-right: 3%">
+                    <strong>Slight Insane</strong> fulfills all your customized t-shirt printing needs. So whether you’re looking for custom t shirts or custom hoodies, we can print them for you. We specialize in customising T-shirts, Polo T-shirts, Hoodies, Zippers and Sweatshirts.
                     <br>
                     <br>
                     All types of printing technology such as transfer printing, Vinyl Printing, Sublimation Printing, Screen Printing are available.
                 </p>
-                <a class="btn btn-light btn-xl js-scroll-trigger btn-4" href="#services" id="contus" >Contact Us!</a>
+                <a class="btn btn-light btn-xl js-scroll-trigger btn-4 " href="#services" id="contus">contact us</a>
             </div>
         </div>
     </div>
 </section>
 
+
+
+
+<!--product section-->
+<!-- <div id="container">
+    <header>
+     <h1>Animated Photo Banner</h1>
+     <p>Lorem ipsum dolor...</p>
+    </header>
+    
+   Each image is 350px by 233px 
+    <div class="photobanner">
+        <img class="first" src="abc.jpeg" alt="" />
+        <img src="abc.jpeg" alt="" />
+        <img src="abc.jpeg" alt="" />
+        <img src="abc.jpeg" alt="" />
+        <img src="abc.jpeg" alt="" />
+        <img src="abc.jpeg" alt="" />
+        <img src="abc.jpeg" alt="" />
+        
+        
+    </div>
+</div>
+ -->
 
 
 <!--events section-->
@@ -547,7 +615,9 @@
 
 
 <!--contact-->
-<section id="contact" style="background-color: #1e61cc; color: #FFFFFF;">
+<!-- <section id="contact"   style="background: url(background.jpeg);
+                    background-attachment: fixed ;background-size: cover;padding: 1%"> -->
+<section id="contact" style="background-color: #000; color: #FFFFFF;" >
     <div class="container" style="padding: 2%;">
         <div class="row">
             <div class="col-lg-8 mx-auto text-center">
